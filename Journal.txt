@@ -1,7 +1,17 @@
 Commit #1:
 With this section I have added the navbar, title of the tab, title of the document,
-  and added the words for the About section. The plan for this is to later add the
-  photo above the H2 heading (Hell there...). I had some problems with the navbar 
-  because that was always a trouble that I had but I was able to get it properly
-  designed (or at least so I think so far).
+and added the words for the About section. The plan for this is to later add the
+photo above the H2 heading (Hell there...). I had some problems with the navbar 
+because that was always a trouble that I had but I was able to get it properly
+designed (or at least so I think so far).
 
+Commit #2:
+This commit has the section that has the information concerning the resume/previous
+Work. The breakdown of this is that it has my educations: specifically the degree
+I am working on and my education with the navy. One problem that I will be 
+encountering is how I am going to have to format the designs of these. I think I
+will be taking two of the sections, the edcuation section known as JCAC (abbreviated)
+and the work section may be a drop down section. That way it doesn't take up too 
+much space even though it will have some lines either way. With the education sections
+I may be putting them side by side, two different columns so that they stay in the same
+section. The formatting sections will be done in later commits.

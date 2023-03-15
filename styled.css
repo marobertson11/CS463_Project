@@ -2,7 +2,7 @@ body {
   margin: 0;
   text-align: center;
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 a {
@@ -20,17 +20,19 @@ a:hover {
   color: #080808;
 }
 .navbar-list {
-   display: inline-block;
+  display: inline-block;
 }
-.navbar-links{
-     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: end;
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
 }
-.nav-item{
-    margin: 0px;
+.nav-item {
+  margin: 0px;
+  font-size: x-large;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
+  text-align: center;
 }

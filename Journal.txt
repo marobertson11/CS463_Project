@@ -1,7 +1,7 @@
 Commit #1:
 With this section I have added the navbar, title of the tab, title of the document,
 and added the words for the About section. The plan for this is to later add the
-photo above the H2 heading (Hell there...). I had some problems with the navbar 
+photo above the H2 heading (Hello there...). I had some problems with the navbar 
 because that was always a trouble that I had but I was able to get it properly
 designed (or at least so I think so far).
 
@@ -15,3 +15,12 @@ and the work section may be a drop down section. That way it doesn't take up too
 much space even though it will have some lines either way. With the education sections
 I may be putting them side by side, two different columns so that they stay in the same
 section. The formatting sections will be done in later commits.
+
+Commit #3:
+This commit adds the section that holds the project infromation. The plan was originally
+to use grid aspects to seperate the two projects as 2 columns. So far this has not 
+worked as of yet, but the project is still going. The main point of this concern is to 
+get the information onto the document and later the formatting will be done. Most 
+likely in commit #6? I was having a little bit of problems with seperating the css styles 
+for the links compared to the navbar links. This led me to having to re-word some of 
+the previous sections. 

@@ -5,19 +5,25 @@ body {
   font-size: 20px;
 }
 
-a {
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-item {
   color: black;
   margin: 0;
   float: left;
   padding: 20px;
+  font-size: x-large;
 }
 a:focus-visible {
   outline: 2px solid crimson;
   border-radius: 2px;
 }
-a:hover {
-  background-color: #ffa500;
-  color: #080808;
+.nav-item a:hover {
+  background-color: black;
+  color: white;
 }
 .navbar-list {
   display: inline-block;
@@ -28,11 +34,37 @@ a:hover {
   flex-wrap: wrap;
   justify-content: end;
 }
-.nav-item {
+
+.ProjectGitLinks {
+  color: black;
   margin: 0px;
+  float: left;
+  padding: 10px;
+  
+}
+.ProjectGitLinks a {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  float: left;
   font-size: x-large;
 }
-li {
-  list-style-type: none;
-  text-align: center;
+.ProjectGitLinks a:hover {
+  color: blue;
+  background-color: red;
+}
+
+.grid-areas-container {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "groupA groupB";
+}
+.item1{
+    grid-area: groupA;
+}
+
+.item2{
+    grid-area: groupB;
 }

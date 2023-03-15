@@ -24,3 +24,7 @@ get the information onto the document and later the formatting will be done. Mos
 likely in commit #6? I was having a little bit of problems with seperating the css styles 
 for the links compared to the navbar links. This led me to having to re-word some of 
 the previous sections. 
+
+Commit #4:
+Basically ported over the corrected work from HW1. This commit is for adding in the Contact
+Me section. There isn't a lot to mention here. Mainly just formatted it in a basic design.

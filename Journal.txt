@@ -1,0 +1,7 @@
+Commit #1:
+With this section I have added the navbar, title of the tab, title of the document,
+  and added the words for the About section. The plan for this is to later add the
+  photo above the H2 heading (Hell there...). I had some problems with the navbar 
+  because that was always a trouble that I had but I was able to get it properly
+  designed (or at least so I think so far).
+

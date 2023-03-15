@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  margin: 0;
+  float: left;
+  padding: 20px;
+}
+a:focus-visible {
+  outline: 2px solid crimson;
+  border-radius: 2px;
+}
+a:hover {
+  background-color: #ffa500;
+  color: #080808;
+}
+.navbar-list {
+   display: inline-block;
+}
+.navbar-links{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.nav-item{
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}

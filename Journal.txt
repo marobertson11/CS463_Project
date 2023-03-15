@@ -28,3 +28,9 @@ the previous sections.
 Commit #4:
 Basically ported over the corrected work from HW1. This commit is for adding in the Contact
 Me section. There isn't a lot to mention here. Mainly just formatted it in a basic design.
+
+Commit #5: 
+For this commit, I added the logos and images that would be used for the webpage. This includes
+the photo of me in the about me section, the logos for the educations that I have undergone, 
+the logo for the Navy Reserves, and the logos for the two projects (although the logo for the
+data pipeline is just a general logo for the C-TRAN).

@@ -34,3 +34,13 @@ For this commit, I added the logos and images that would be used for the webpage
 the photo of me in the about me section, the logos for the educations that I have undergone, 
 the logo for the Navy Reserves, and the logos for the two projects (although the logo for the
 data pipeline is just a general logo for the C-TRAN).
+
+Commit #6:
+I have more or less formated the website in a 'good enough' format. I have attempted to make
+make thing as grid. But for some reason it didn't convert into the grid like I designed it. Because
+of that I decided to leave it where I kept everything centered. During this stage I decided to change 
+the background color, to eliminate the white background. Because of this, when I put in the Wave check, 
+it gave me two errors based on Contrast errors. Once I realised what they were, which was the background 
+and the color of a link that had been visited, I was able to fix the issue. I also put in my 
+Javascript file as well. Made it simple where I put in a greeting based on the time of the day and then it will say 
+"good morning/afternoon/evening". 

@@ -1,8 +1,130 @@
 body {
-  margin: 0;
+  margin: auto;
   text-align: center;
   position: relative;
   font-size: 20px;
+  width: fit-content;
+  background-color: rgb(66, 69, 73);
+  color: white;
+}
+
+.grid-areas-container {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  grid-template-areas:
+    "AboutPic AboutSec"
+    "EducationHeader EducationHeader"
+    "psuLogo PSU"
+    "JCAC JCACLogo"
+    "WorkHeader WorkHeader"
+    "NavyLogo NavySection"
+    "ProjectHeader ProjectHeader"
+    "groupA groupATitle"
+    "groupA groupAText"
+    "groupBTitle groupB"
+    "groupBText groupB";
+}
+
+.personalImage {
+  height: 200px;
+  width: 130px;
+  position: center;
+  align-items: center;
+  justify-items: center;
+  grid-area: AboutPic;
+}
+
+.aboutSec {
+  grid-area: AboutSec;
+  width: 1000px;
+  margin: auto;
+}
+
+.EducationHeader {
+  grid-area: EducationHeader;
+}
+.NavyLogo {
+  grid-area: NavyLogo;
+  justify-content: center;
+  justify-items: center;
+}
+.Navy {
+  grid-area: NavySection;
+}
+
+.JCACLogo {
+  grid-area: JCACLogo;
+}
+.JCAC {
+  grid-area: JCAC;
+}
+.projectHeader {
+  grid-area: header;
+}
+.ProjectHeader {
+  grid-area: ProjectHeader;
+}
+
+.item1 {
+  grid-area: groupA;
+}
+
+.item2 {
+  grid-area: groupATitle;
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+}
+
+.item3 {
+  grid-area: groupBText;
+}
+
+.item4 {
+  grid-area: groupBTitle;
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+}
+
+.ProjectGitLinks {
+  color: white;
+  margin: 0px;
+  float: left;
+  padding: 10px;
+}
+.ProjectGitLinks a, .ProjectGitLinks a:visited {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  float: center;
+  font-size: x-large;
+  color:white;
+}
+
+.ProjectGitLinks a:hover {
+  background-color: green;
+  color: orange;
+}
+
+.psu,
+.jcac,
+.navy {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+
+.ctran {
+  height: 200px;
+  width: 250px;
+}
+
+.walktober {
+  height: 200px;
+  width: 200px;
 }
 
 li {
@@ -10,8 +132,8 @@ li {
   text-align: center;
 }
 
-.nav-item {
-  color: black;
+.nav-item a, .nav-item a:visited {
+  color: white;
   margin: 0;
   float: left;
   padding: 20px;
@@ -35,36 +157,35 @@ a:focus-visible {
   justify-content: end;
 }
 
-.ProjectGitLinks {
-  color: black;
-  margin: 0px;
-  float: left;
-  padding: 10px;
-  
+.form-input {
+  display: inline-block;
 }
-.ProjectGitLinks a {
+
+.aboutText {
   display: flex;
-  flex-direction: row;
-  padding: 10px;
-  float: left;
-  font-size: x-large;
-}
-.ProjectGitLinks a:hover {
-  color: blue;
-  background-color: red;
+  text-align: center;
+  align-items: center;
 }
 
-.grid-areas-container {
-  display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "groupA groupB";
-}
-.item1{
-    grid-area: groupA;
+.projectADescription {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  grid-area: groupAText;
 }
 
-.item2{
-    grid-area: groupB;
+.projectBDescription {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  grid-area: groupBText;
+}
+
+.img {
+  margin: auto;
+}
+
+.projDesc {
+  margin: auto;
+  width: 1000px;
 }

@@ -7,21 +7,11 @@
     <title>Michael Robertson</title>
     <link rel="stylesheet" href="./styled.css" />
   </head>
+
   <body>
     <div class="window">
       <nav class="navbar navbar-expand-md py-4">
         <h1 class="name">Michael Robertson</h1>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar"
-          aria-controls="navbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse justify-content-end" id="navLinks">
           <ul class="navbar-links">
             <li class="nav-item">
@@ -39,178 +29,191 @@
           </ul>
         </div>
       </nav>
-      <div id="column py-5 mt-5">
-        <div class="aboutSection col-12 col-md-6 p-5">
-          <div class="col-xl-6 d-flex justify-items-center">
-            <img
-              src="images/photo.jpg"
-              width="500px"
-              alt="A great maybe old picture of Michael Robertson"
-            />
+      <section id="projectGrid" class="grid-container grid-areas-contianer">
+        <div id="column py-5 mt-5">
+          <div class="aboutSection col-12 col-md-6 p-5">
+            <div class="grid-item personalImage img col-xl-6 d-flex">
+              <img
+                src="images/photo.jpg"
+                alt="A great maybe old picture of Michael Robertson"
+                class="personalImage"
+              />
+            </div>
+            <div class="gird=item aboutSec aboutSection col-6">
+              <h2 id="timeOfDay"></h2>
+              <h2 id="aboutSection">Hello there, my name is Michael</h2>
+              <h3 id="aboutSection">(he/him)</h3>
+              <p class="mt-6">
+                I am an undergrad student pursing my bachelor's degree in
+                Computer Science through the Maseeh College of Engineering and
+                Computer Science program at Portland State University in Oregon.
+                Before starting my bachelor's degree, I had previous experience
+                with game design and had been education in some cyber security
+                through the military and planned on utilizing this education to
+                further my career. Once I started my degree, I gained a better
+                handle on both other languages and how to think in different
+                perspectives.
+              </p>
+            </div>
           </div>
-          <h2 id="aboutSection">Hello there, my name is Michael</h2>
-          <h3 id="aboutSection">(he/him)</h3>
-          <p class="mt-6">
-            I am an undergrad student pursing my bachelor's degree in Computer
-            Science through the Maseeh College of Engineering and Computer
-            Science program at Portland State University in Oregon. Before
-            starting my bachelor's degree, I had previous experience with game
-            design and had been education in some cyber security through the
-            military and planned on utilizing this education to further my
-            career. Once I started my degree, I gained a better handle on both
-            other languages and how to think in different perspectives.
-          </p>
         </div>
-      </div>
-      <div id="workSection" class="col-xl-6 pe-4">
-        <h2>Education</h2>
-        <ul>
-            <div class="col-xl-6 d-flex justify-items-center">
-                <img
-                  src="images/psu.png"
-                  width="500px"
-                  alt="PSU Logo"
-                />
-              </div>
-          <h3>Portland State University</h3>
-          <p>March 2019 - March 2023</p>
-          <li>Bachelor of Science</li>
-          <li>Computer Science</li>
-          <div class="col-xl-6 d-flex justify-items-center">
+        <div id="workSection" class="col-xl-6 pe-4">
+          <div class="EducationHeader">
+            <h2>Education</h2>
+          </div>
+          <ul>
+            <div class="grid-item psuLogo col-xl-6 d-flex justify-items-center">
+              <img src="images/psu.png" alt="PSU Logo" class="psu img" />
+            </div>
+            <div class="PSU">
+              <h3>Portland State University</h3>
+              <p>March 2019 - June 2023</p>
+              <li>Bachelor of Science</li>
+              <li>Computer Science</li>
+            </div>
+            <div
+              class="grid-item JCACLogo col-xl-6 d-flex justify-items-center"
+            >
+              <img src="images/jcac.png" alt="Logo for JCAC" class="jcac img" />
+            </div>
+            <div class="JCAC">
+              <h3>Joint Cyber Analysis Course</h3>
+              <p>January 2018 - July 2018</p>
+              <li>Discrete Mathematics</li>
+              <li>Programing Fundamentals (C++)</li>
+              <li>Computer Organization and Architecture</li>
+              <li>Operating Systems (Android, iOS)</li>
+              <li>
+                Networking Concepts and Protocols (Subnetting, Wireshark,
+                TCP/IP)
+              </li>
+              <li>Advanced Windows (XP/7/10)</li>
+              <li>Advanced Unix</li>
+              <li>Advanced Programming (PYTHON, PowerShell, HTML)</li>
+              <li>Enterprise Level Networking</li>
+              <li>Protocol Analysis</li>
+              <li>Wireless Technologies</li>
+              <li>Target Research/SIGNT Analysis</li>
+              <li>Active Exploitation</li>
+              <li>Computer Network Defense</li>
+              <li>Forensic Methodology and Malware Analysis</li>
+            </div>
+          </ul>
+          <div class="grid-item WorkHeader">
+            <h2>Work</h2>
+          </div>
+
+          <div class="grid-item NavyLogo col-xl-6 d-flex justify-items-center">
             <img
-              src="images/jcac.png"
-              width="500px"
-              alt="Logo for JCAC"
+              src="images/navy_reserves.png"
+              alt="Navy Reserves Logo"
+              class="navy img"
             />
           </div>
-          <h3>Joint Cyber Analysis Course</h3>
-          <p>January 2018 - July 2018</p>
-          <li>Discrete Mathematics</li>
-          <li>Programing Fundamentals (C++)</li>
-          <li>Computer Organization and Architecture</li>
-          <li>Operating Systems (Android, iOS)</li>
-          <li>
-            Networking Concepts and Protocols (Subnetting, Wireshark, TCP/IP)
-          </li>
-          <li>Advanced Windows (XP/7/10)</li>
-          <li>Advanced Unix</li>
-          <li>Advanced Programming (PYTHON, PowerShell, HTML)</li>
-          <li>Enterprise Level Networking</li>
-          <li>Protocol Analysis</li>
-          <li>Wireless Technologies</li>
-          <li>Target Research/SIGNT Analysis</li>
-          <li>Active Exploitation</li>
-          <li>Computer Network Defense</li>
-          <li>Forensic Methodology and Malware Analysis</li>
-        </ul>
-        <h2>Work</h2>
-        <ul id="workList">
-            <div class="col-xl-6 d-flex justify-items-center">
-                <img
-                  src="images/navy_reserves.png"
-                  width="500px"
-                  alt="Navy Reserves Logo"
-                />
-              </div>
-          <h3>Cryptologic Technician (Networks) in the Navy Reserves</h3>
-          <h4>September 2017 - Present</h4>
-          <li>
-            Assisted IT teams with the troubleshooting and resolution of
-            incident tickets
-          </li>
-          <li>
-            Working with other IT teams to assist in troubleshooting and
-            resolving incident tickets
-          </li>
-          <li>
-            Provided defensive measures for networks by writing SNORT rules
-          </li>
-          <li>
-            Determined how a computer system was breached and the original
-            source by analyzing network traffic.
-          </li>
-          <li>
-            Utilized exploits and payloads in order to gain access to other
-            computer systems
-          </li>
-          <li>
-            Worked with packet capturing and network analysis tools such as
-            Wireshark and TCP Dump
-          </li>
-          <li>
-            Created network maps based on connections while also utilizing the
-            software NMAP
-          </li>
-          <li>
-            Analyzed malware to determine its classification and intentions via
-            virtual machines
-          </li>
-          <li>
-            Strong ability to adapt to stressful situations and master new
-            skills quickly
-          </li>
-        </ul>
-      </div>
-      <div id="projectSection" class="grid-container grid-areas-contianer">
-        <h2>Projects</h2>
+          <div class="Navy">
+            <ul id="workList">
+              <h3>Cryptologic Technician (Networks) in the Navy Reserves</h3>
+              <h4>September 2017 - Present</h4>
+              <li>
+                Assisted IT teams with the troubleshooting and resolution of
+                incident tickets
+              </li>
+              <li>
+                Working with other IT teams to assist in troubleshooting and
+                resolving incident tickets
+              </li>
+              <li>
+                Provided defensive measures for networks by writing SNORT rules
+              </li>
+              <li>
+                Determined how a computer system was breached and the original
+                source by analyzing network traffic.
+              </li>
+              <li>
+                Utilized exploits and payloads in order to gain access to other
+                computer systems
+              </li>
+              <li>
+                Worked with packet capturing and network analysis tools such as
+                Wireshark and TCP Dump
+              </li>
+              <li>
+                Created network maps based on connections while also utilizing
+                the software NMAP
+              </li>
+              <li>
+                Analyzed malware to determine its classification and intentions
+                via virtual machines
+              </li>
+              <li>
+                Strong ability to adapt to stressful situations and master new
+                skills quickly
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-item ProjectSection" id="projectSection">
+          <h2 class="projectSection">Projects</h2>
+        </div>
         <div class="grid-item item1">
-            <div class="col-xl-6 d-flex justify-items-center">
-                <img
-                  src="images/C-TRAN.png"
-                  width="500px"
-                  alt="C-TRAN logo"
-                />
-              </div>
+          <img src="images/C-TRAN.png" alt="C-TRAN logo" class="ctran img" />
+        </div>
+        <div class="grid-item item2">
           <li class="ProjectGitLinks">
             <a href="https://github.com/marobertson11/CS410-Data_Engineering">
               Data Pipeline</a
             >
-            <p>
-              This data pipeline reads data provided from TriMet C-TRAN. Once
-              the data is gathered, it is then filtered as it sends it through a
-              buffer called Apache Kafka. Once the data has gone through the
-              buffer, it is then sent to a PostgreSQL table. Being in a
-              PostgreSQL table allows for the user to create exportable data
-              reports. These files allow for data maps to be made that represent
-              the query. This project uses Python, Linux bash scripts, Apache
-              Kafka, PostgreSQL, and MapboxGL.
-            </p>
           </li>
         </div>
-        <div class="grid-item item2">
-            <div class="col-xl-6 d-flex justify-items-center">
-                <img
-                  src="images/walktober.png"
-                  width="500px"
-                  alt="The logo that was made for Walktober by the capstone group"
-                />
-              </div>
+        <div class="grid-item projectADescription projDesc">
+          <p>
+            This data pipeline reads data provided from TriMet C-TRAN. Once the
+            data is gathered, it is then filtered as it sends it through a
+            buffer called Apache Kafka. Once the data has gone through the
+            buffer, it is then sent to a PostgreSQL table. Being in a PostgreSQL
+            table allows for the user to create exportable data reports. These
+            files allow for data maps to be made that represent the query. This
+            project uses Python, Linux bash scripts, Apache Kafka, PostgreSQL,
+            and MapboxGL.
+          </p>
+        </div>
+
+        <div class="grid-item item3">
+          <img
+            src="images/walktober.png"
+            alt="The logo that was made for Walktober by the capstone group"
+            class="walktober img"
+          />
+        </div>
+        <div class="grid-item item4">
           <li class="ProjectGitLinks">
             <a
               href="https://github.com/psu-software-engineering-capstone/walktober"
             >
               Senior Capstone: Walktober</a
             >
-            <p>
-              Walktober is a yearly fitness challenge at PSU and this project is
-              to design a software platform for it. The platform is modern,
-              responsive, improved design and analytics and simplified
-              configuration. This project uses React Typescript, Ionic
-              Framework, and Javascript
-            </p>
           </li>
         </div>
-      </div>
+        <div class="grid-item projectBDescription projDesc">
+          <p>
+            Walktober is a yearly fitness challenge at PSU and this project is
+            to design a software platform for it. The platform is modern,
+            responsive, improved design and analytics and simplified
+            configuration. This project uses React Typescript, Ionic Framework,
+            and Javascript
+          </p>
+        </div>
+      </section>
       <div id="contactSection" class="row my-5">
         <h2>Contact Me</h2>
-        <form id="form-contract">
+        <form id="form-contract" class="form-contract">
           <div class="row mb-5">
             <label for="name" class="title"><b>Name:</b></label>
             <input
               type="text"
               name="name"
               id="name"
-              class="form-contract"
+              class="form-input"
               placeholder="Insert name..."
             />
           </div>
@@ -220,7 +223,7 @@
               type="email"
               name="email"
               id="email"
-              class="form-contract"
+              class="form-input"
               placeholder="Insert email..."
             />
           </div>
@@ -230,7 +233,7 @@
               type="text"
               name="message"
               id="message"
-              class="form-contract"
+              class="form-input"
               placeholder="Insert your message..."
               rows="4"
             ></textarea>
@@ -242,5 +245,11 @@
         </form>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/time.js"></script>
   </body>
 </html>

@@ -1,46 +1,41 @@
 Commit #1:
-With this section I have added the navbar, title of the tab, title of the document,
-and added the words for the About section. The plan for this is to later add the
-photo above the H2 heading (Hello there...). I had some problems with the navbar 
-because that was always a trouble that I had but I was able to get it properly
-designed (or at least so I think so far).
+With this section I have added the navbar, title of the tab, title of the document, and added the words for 
+the About section. The plan for this is to later add the photo above the H2 heading (Hello there...). I had
+some problems with the navbar  because that was always a trouble that I had but I was able to get it 
+properly designed (or at least so I think so far).
 
 Commit #2:
-This commit has the section that has the information concerning the resume/previous
-Work. The breakdown of this is that it has my educations: specifically the degree
-I am working on and my education with the navy. One problem that I will be 
-encountering is how I am going to have to format the designs of these. I think I
-will be taking two of the sections, the edcuation section known as JCAC (abbreviated)
-and the work section may be a drop down section. That way it doesn't take up too 
-much space even though it will have some lines either way. With the education sections
-I may be putting them side by side, two different columns so that they stay in the same
-section. The formatting sections will be done in later commits.
+This commit has the section that has the information concerning the resume/previous Work. The breakdown of
+this is that it has my educations: specifically, the degree I am working on and my education with the 
+navy. One problem that I will be encountering is how I am going to have to format the designs of these. 
+I think I will be taking two of the sections, the education section known as JCAC (abbreviated) and the 
+work section may be a drop down section. That way it doesn't take up too much space even though it will 
+have some lines either way. With the education sections I may be putting them side by side, two different
+columns so that they stay in the same section. The formatting sections will be done in later commits.
 
 Commit #3:
-This commit adds the section that holds the project infromation. The plan was originally
-to use grid aspects to seperate the two projects as 2 columns. So far this has not 
-worked as of yet, but the project is still going. The main point of this concern is to 
-get the information onto the document and later the formatting will be done. Most 
-likely in commit #6? I was having a little bit of problems with seperating the css styles 
-for the links compared to the navbar links. This led me to having to re-word some of 
-the previous sections. 
+This commit adds the section that holds the project information. The plan was originally to use grid 
+aspects to separate the two projects as 2 columns. So far this has not worked as of yet, but the project
+is still going. The main point of this concern is to get the information onto the document and later 
+the formatting will be done in commit #6? I was having a little bit of problems with separating the CSS
+styles for the links compared to the navbar links. This led me to having to re-word some of the previous
+sections. 
 
 Commit #4:
-Basically ported over the corrected work from HW1. This commit is for adding in the Contact
-Me section. There isn't a lot to mention here. Mainly just formatted it in a basic design.
+Basically ported over the corrected work from HW1. This commit is for adding in the Contact Me section.
+There is not a lot to mention here. Mainly just formatted it in a basic design.
 
 Commit #5: 
-For this commit, I added the logos and images that would be used for the webpage. This includes
-the photo of me in the about me section, the logos for the educations that I have undergone, 
-the logo for the Navy Reserves, and the logos for the two projects (although the logo for the
-data pipeline is just a general logo for the C-TRAN).
+For this commit, I added the logos and images that would be used for the webpage. This includes the photo
+of me in the about me section, the logos for the educations that I have undergone, the logo for the Navy 
+Reserves, and the logos for the two projects (although the logo for the data pipeline is just a general 
+logo for the C-TRAN).
 
 Commit #6:
-I have more or less formated the website in a 'good enough' format. I have attempted to make
-make thing as grid. But for some reason it didn't convert into the grid like I designed it. Because
-of that I decided to leave it where I kept everything centered. During this stage I decided to change 
-the background color, to eliminate the white background. Because of this, when I put in the Wave check, 
-it gave me two errors based on Contrast errors. Once I realised what they were, which was the background 
-and the color of a link that had been visited, I was able to fix the issue. I also put in my 
-Javascript file as well. Made it simple where I put in a greeting based on the time of the day and then it will say 
-"good morning/afternoon/evening". 
+I have formatted the website in a 'good enough' format. I have attempted to make thing as grid. But for 
+some reason it didn't convert into the grid like I designed it. Because of that I decided to leave it 
+where I kept everything centered. During this stage I decided to change the background color, to eliminate 
+the white background. Because of this, when I put in the Wave check, it gave me two errors based on Contrast 
+errors. Once I realized what they were, which was the background and the color of a link that had been 
+visited, I was able to fix the issue. I also put in my JavaScript file as well. Made it simple where I put 
+in a greeting based on the time of the day and then it will say "good morning/afternoon/evening".
